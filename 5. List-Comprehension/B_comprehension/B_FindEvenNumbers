@@ -1,0 +1,10 @@
+list = [103,207,302,400,500]
+
+evenList = [
+    item
+    for item in list
+    if item % 2 ==0
+]
+
+print("OLD list=====>",list)
+print("EVEN list=====>",evenList)

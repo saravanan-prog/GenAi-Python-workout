@@ -1,10 +1,9 @@
 list = [10,20,30,40,50]
 
-# Itterate the list all value and add 100
+newList = []  # collect all list value and multipy 2
 
-result = []
+for item in list:
+    newList.append(item * 2)  
 
-for number in list:
-    result.append(100 + number)
 
-print("result===>",result)
+print("New list ====>",newList)       #[20,40,60,80,100]

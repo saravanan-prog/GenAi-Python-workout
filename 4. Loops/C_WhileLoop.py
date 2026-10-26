@@ -1,6 +1,7 @@
+teachers = ["Mohith","susma","sabarish","Mahit"]
+startpos = 0
+limit = len(teachers)
 
-start = 1
-
-while start <= 100:
-    print("number===>",start)
-    start = start + 1
+while startpos < limit:
+    print("Teacher List===>",teachers[startpos])
+    startpos = startpos + 1
