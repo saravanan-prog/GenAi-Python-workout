@@ -1,7 +1,7 @@
 
-def personInformation():
-    print("Hello Saravanan")
-    print("He is python trainner")
-    print("He is working from tcs")
+def additionProgram(firstnumber,secondNumber):
+    return firstnumber + secondNumber
 
+result = additionProgram(100,200)
 
+print("Result===========>",result)
