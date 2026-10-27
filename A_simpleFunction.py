@@ -1,13 +1,23 @@
-# Simple function add two Numbers
+# Print the 1 to 100 numbers
 
-def addition():
-    firstNumber = 10
-    secondNumber = 20
-    result = firstNumber + secondNumber
-    return result
+def printNumbers():
+    for item in range(1,101):
+        print("item====>",item)
 
 
-additionResult = addition()
+#printNumbers()
 
-print("Addition Result =====>",additionResult)
+def printTheEvenNumbers():
+    for item in range(1,101):
+       if (item % 2 == 0):
+          print("Event item===>",item)
 
+
+#printTheEvenNumbers()
+
+def printODDNumbers():
+    for item in range(1,101):
+       if (item % 2 != 0):
+          print("ODD item===>",item)
+
+#printODDNumbers()
